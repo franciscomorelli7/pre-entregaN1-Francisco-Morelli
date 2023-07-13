@@ -20,8 +20,8 @@ function agregarProducto() {
      
 }
 function mostrarCarrito() {
-    alert("Productos en el carrito:");
-    alert(carrito);
+    alert("Productos en el carrito:"+ '\n' + carrito);
+    
   }
 while (true) {
     let opcion = prompt("Seleccione una opción:\n1. Agregar producto\n2. Mostrar carrito\n3. Salir");
